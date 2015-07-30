@@ -1,0 +1,10 @@
+2015-07-30 13:19:39,652 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 13:19:39,652 DEBUG test_simple: POST: http://znewsapp-c.pala-pala.net/voteFlow/save_shoot [User data text/json]
+	Page 1: Get URL ...
+2015-07-30 13:19:40,000 DEBUG test_simple:  Done in 0.348s
+2015-07-30 13:21:03,170 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 13:21:03,170 DEBUG test_simple: POST: http://znewsapp-c.pala-pala.net/voteFlow/save_shoot [User data text/json]
+	Page 1: Get URL ...
+2015-07-30 13:21:03,515 DEBUG test_simple:  Done in 0.345s

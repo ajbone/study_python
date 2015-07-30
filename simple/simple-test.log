@@ -1,0 +1,170 @@
+2015-07-30 11:52:57,260 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 11:52:57,260 DEBUG test_simple: GET: http://localhost/index.html
+	Page 1: Get URL ...
+2015-07-30 11:52:57,262 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:52:57,262 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,671 DEBUG test_simple:   Done in 1.406s
+2015-07-30 11:52:58,671 DEBUG test_simple: GET: http://localhost/index.html
+	Page 2: Get URL ...
+2015-07-30 11:52:58,675 DEBUG test_simple:  Done in 0.003s
+2015-07-30 11:52:58,675 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,682 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,683 DEBUG test_simple: GET: http://localhost/index.html
+	Page 3: Get URL ...
+2015-07-30 11:52:58,685 DEBUG test_simple:  Done in 0.002s
+2015-07-30 11:52:58,685 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,687 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,688 DEBUG test_simple: GET: http://localhost/index.html
+	Page 4: Get URL ...
+2015-07-30 11:52:58,689 DEBUG test_simple:  Done in 0.002s
+2015-07-30 11:52:58,690 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,692 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,692 DEBUG test_simple: GET: http://localhost/index.html
+	Page 5: Get URL ...
+2015-07-30 11:52:58,693 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:52:58,693 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,695 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,695 DEBUG test_simple: GET: http://localhost/index.html
+	Page 6: Get URL ...
+2015-07-30 11:52:58,697 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:52:58,697 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,699 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,699 DEBUG test_simple: GET: http://localhost/index.html
+	Page 7: Get URL ...
+2015-07-30 11:52:58,701 DEBUG test_simple:  Done in 0.002s
+2015-07-30 11:52:58,701 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,704 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,704 DEBUG test_simple: GET: http://localhost/index.html
+	Page 8: Get URL ...
+2015-07-30 11:52:58,705 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:52:58,705 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,708 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,708 DEBUG test_simple: GET: http://localhost/index.html
+	Page 9: Get URL ...
+2015-07-30 11:52:58,709 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:52:58,709 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,712 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,712 DEBUG test_simple: GET: http://localhost/index.html
+	Page 10: Get URL ...
+2015-07-30 11:52:58,713 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:52:58,713 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,715 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,715 DEBUG test_simple: GET: http://localhost/index.html
+	Page 11: Get URL ...
+2015-07-30 11:52:58,716 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:52:58,717 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,719 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,719 DEBUG test_simple: GET: http://localhost/index.html
+	Page 12: Get URL ...
+2015-07-30 11:52:58,720 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:52:58,720 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,722 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,722 DEBUG test_simple: GET: http://localhost/index.html
+	Page 13: Get URL ...
+2015-07-30 11:52:58,723 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:52:58,724 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,726 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,726 DEBUG test_simple: GET: http://localhost/index.html
+	Page 14: Get URL ...
+2015-07-30 11:52:58,727 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:52:58,727 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,729 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,729 DEBUG test_simple: GET: http://localhost/index.html
+	Page 15: Get URL ...
+2015-07-30 11:52:58,731 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:52:58,731 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,734 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,734 DEBUG test_simple: GET: http://localhost/index.html
+	Page 16: Get URL ...
+2015-07-30 11:52:58,736 DEBUG test_simple:  Done in 0.002s
+2015-07-30 11:52:58,736 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,739 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,740 DEBUG test_simple: GET: http://localhost/index.html
+	Page 17: Get URL ...
+2015-07-30 11:52:58,741 DEBUG test_simple:  Done in 0.002s
+2015-07-30 11:52:58,742 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,744 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,744 DEBUG test_simple: GET: http://localhost/index.html
+	Page 18: Get URL ...
+2015-07-30 11:52:58,746 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:52:58,746 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,749 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,749 DEBUG test_simple: GET: http://localhost/index.html
+	Page 19: Get URL ...
+2015-07-30 11:52:58,750 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:52:58,750 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,752 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:52:58,752 DEBUG test_simple: GET: http://localhost/index.html
+	Page 20: Get URL ...
+2015-07-30 11:52:58,754 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:52:58,754 DEBUG test_simple:  Load css and images...
+2015-07-30 11:52:58,756 DEBUG test_simple:   Done in 0.000s
+2015-07-30 11:53:26,465 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 11:53:26,465 DEBUG test_simple: GET: http://localhost/index.html
+	Page 1: Get URL ...
+2015-07-30 11:53:26,467 DEBUG test_simple:  Done in 0.001s
+2015-07-30 11:53:26,467 DEBUG test_simple:  Load css and images...
+2015-07-30 11:53:27,899 DEBUG test_simple:   Done in 1.429s
+2015-07-30 12:51:26,360 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 12:51:26,360 DEBUG test_simple: POST: http://znewsapp-c.pala-pala.net/voteFlow/save_shoot [('match', 'yes'), ('user_id', '8343132486'), ('country', '\xe4\xb8\xad\xe5\x9b\xbd'), ('province', '\xe6\xb5\x99\xe6\xb1\x9f'), ('city', '\xe6\x9d\xad\xe5\xb7\x9e'), ('file_id', 'test_dammy_file'), ('result[content_id]', '0af00709-49b9-47e4-833c-2fc50f5b0e38')]
+	Page 1: Get URL ...
+2015-07-30 12:51:27,356 DEBUG test_simple:  Done in 0.996s
+2015-07-30 12:52:25,517 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 12:52:46,124 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 12:53:19,663 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 12:54:54,898 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 12:56:37,289 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 12:59:44,659 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 12:59:53,471 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 13:01:18,764 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 13:01:54,896 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 13:01:54,897 DEBUG test_simple: POST: http://znewsapp-c.pala-pala.net/voteFlow/save_shoot [User data text/json]
+	Page 1: Get URL ...
+2015-07-30 13:01:55,727 DEBUG test_simple:  Done in 0.830s
+2015-07-30 13:03:52,210 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 13:03:52,210 DEBUG test_simple: POST: http://znewsapp-c.pala-pala.net/voteFlow/save_shoot [User data text/json]
+	Page 1: Get URL ...
+2015-07-30 13:03:52,878 DEBUG test_simple:  Done in 0.667s
+2015-07-30 13:04:52,517 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 13:04:52,517 DEBUG test_simple: POST: http://znewsapp-c.pala-pala.net/voteFlow/save_shoot [User data text/json]
+	Page 1: Get URL ...
+2015-07-30 13:04:52,887 DEBUG test_simple:  Done in 0.370s
+2015-07-30 13:07:18,732 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 13:07:18,732 DEBUG test_simple: POST: http://znewsapp-c.pala-pala.net/voteFlow/save_shoot [User data text/json]
+	Page 1: Get URL ...
+2015-07-30 13:07:19,077 DEBUG test_simple:  Done in 0.345s
+2015-07-30 13:08:12,006 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 13:08:12,006 DEBUG test_simple: POST: http://znewsapp-c.pala-pala.net/voteFlow/save_shoot [User data text/json]
+	Page 1: Get URL ...
+2015-07-30 13:08:14,461 DEBUG test_simple:  Done in 2.454s
+2015-07-30 13:08:17,795 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 13:08:17,795 DEBUG test_simple: POST: http://znewsapp-c.pala-pala.net/voteFlow/save_shoot [User data text/json]
+	Page 1: Get URL ...
+2015-07-30 13:08:17,895 DEBUG test_simple:  Done in 0.099s
+2015-07-30 13:08:20,247 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 13:08:20,247 DEBUG test_simple: POST: http://znewsapp-c.pala-pala.net/voteFlow/save_shoot [User data text/json]
+	Page 1: Get URL ...
+2015-07-30 13:08:20,346 DEBUG test_simple:  Done in 0.099s
+2015-07-30 13:12:22,378 DEBUG test_simple: Starting -----------------------------------
+	Access the main URL 20 times
+2015-07-30 13:12:22,378 DEBUG test_simple: POST: http://znewsapp-c.pala-pala.net/voteFlow/save_shoot [User data text/json]
+	Page 1: Get URL ...
+2015-07-30 13:12:22,847 DEBUG test_simple:  Done in 0.469s
