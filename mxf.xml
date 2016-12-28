@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message module="URS" version="1.0" >
+    <header action="REQUEST" command="ENCODE_START"  />
+        <body type="SINGLE" >
+            <task id="000009" file-type="SINGLE" mode="OFFLINE" source-type="FILE" program-no="0" ca="" ip-source-url="" offline-source="/media/windows/diezhongdie4.ts" offline-record-name="diezhongdie4.mxf" emergency-ip-source-url="" output-url="" >
+                <encode-params>
+                    <system-params system-type="ts" wmv-protocol="http" wmv-maximum-clients="0" ts-bitrate="50000000" ts-output-delay-seconds="0" ts-ip="0.0.0.0" ts-port="0"  />
+                    <video-params video-codec="mpeg2" rcmode="Onepass" video-width="1920" video-height="1080" video-frame-rate="25" video-bitrate="45000000" video-peak-bitrate="45000000" video-b-frame-num="2" video-key-frame-interval="0.5" video-peak-window-size="1" video-aspect="16/9" video-rc-method="cbr" video-rc-buffer=""  />
+                    <audio-params audio-codec="PCM" audio-channels="2" audio-sample-rate="48000" audio-channel-mode="allchannels" audio-volume-adjust-coef="1" audio-bitrate-bps="1000000" audio-denoising="0" audio-transparent="0"  />
+                    <video-codec-params mpeg4-use-gmc="0" mpeg4-use-qpel="0" mpeg2-encode-type="" wmv-video-codec="wmv9" wmv-video-quality="0" video_profile="hp" video_level="HL" h264-use-deblocking-filter="0" h264-use-cabac="0" h264-ref-frame-count="1" h264-analyse-mode="p4x4" h264-sub-pixel-mode="intpixel" h265-use-deblocking-filter="0" h265-use-cabac="0" h265-cu-max="64*64" h265-cu-depth="3" h265-sub-pixel-mode="intpixel" video-b-frame-adapt="0" video-key-frame-interval-adapt="0" video-frame-rate-transparent="0" video-resolution-transparent="0" video-pretreatment="0" video-quality-speed-priority="5" video-black-side-adapt="0"  />
+                    <filter-params vf_deinterlace="auto" vf_crop="1920:1080:0:0" vf_pad="1920:1080:0:0" vf_logo="426:70:100:100" vf_logo_path="/home/vobile/logo.png" vf_mosaic=""  />
+                    <subtitle-params input_slang="" sub_file="" sub_bitmap="" sub_pos="" sub_font="" sub_bg_alpha="" sub_bg_color="" sub_delay="" sub_fps="" sub_font_color="" sub_font_size=""  />
+                    <extend-params input_video_id="-1" input_audio_id="4" input_subtitle_id="1" video_interlace="enable" video_field_order="top_field_first" audio_channel_mode="allchannels" audio_volume_adjust_coef="1" encode-mode="0"  />
+                </encode-params>
+            </task>
+        </body>
+</message>
+
