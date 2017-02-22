@@ -1,0 +1,23 @@
+<vddb>
+    <query>
+        <return_code>0</return_code>
+        <extra_info>Success</extra_info>
+    </query>
+    <matches size="1" status="0">
+        <match>
+            <master_uuid>8f09defe-c1f3-11e6-b90d-48fd8eaeed8e</master_uuid>
+            <master_name>49_0062</master_name>
+            <instance_id>8f0ae18a-c1f3-11e6-8fb4-487b6b2db553</instance_id>
+            <instance_name>49_0062</instance_name>
+            <track_type>video</track_type>
+            <track_id>0</track_id>
+            <match_duration>58</match_duration>
+            <score>99</score>
+            <reference_offset>0</reference_offset>
+            <sample_offset>0</sample_offset>
+            <reference_offset_micro>40000</reference_offset_micro>
+            <sample_offset_micro>40000</sample_offset_micro>
+            <match_duration_micro>58000</match_duration_micro>
+        </match>
+    </matches>
+</vddb>
