@@ -23,6 +23,7 @@ else:
 		for j in i.find_all('li',{"class":"list-item"}):
 			print "电影名称:",j["data-title"]
 			print "豆瓣评分：",j["data-score"]
+			print "-----------------------------"
 
 
 '''
