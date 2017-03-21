@@ -55,40 +55,68 @@ def queryVddb(cmdline):
     return ret, out, err
 
 
+def get_attrvalue(node, attrname):
+    return node.getAttribute(attrname) if node else ''
+
+def get_nodevalue(node, index = 0):
+    return node.childNodes[index].nodeValue if node else ''
+
+
+def get_xmlnode(node, name):
+    return node.getElementsByTagName(name) if node else []
+
 def parseResult(out):
+    #获取返回结果中的master_uuid值，并存入list。
     #ret,out,err = queryVddb(image_cmdline)
 
     dom = xml.dom.minidom.parseString(out)
 
     root = dom.documentElement
     itemlist = root.getElementsByTagName('master_uuid')
-
-    item = itemlist[0]
-    result_meta_uuid = item.firstChild.data
+    match_nodes = get_xmlnode(root, 'match')
+    #print "match_nodes:", match_nodes
+    master_uuid_list=[]
+    for node in match_nodes: 
+        node_master_uuid = get_xmlnode(node, 'master_uuid')
+        match_master_uuid =get_nodevalue(node_master_uuid[0])
+        master_uuid_list.append(match_master_uuid)
+    return master_uuid_list
+    #item = itemlist[0]
+    #result_meta_uuid = item.firstChild.data
     
-    return result_meta_uuid
+    #return result_meta_uuid
 
 
 def checkData():
-    image_ret,image_out,image_err = queryVddb(image_cmdline)
-    image_result_meta_uuid = parseResult(image_out)
-    #print "image uuid: %s" % image_result_meta_uuid
+    image_result_flag = 0
 
+    #当返回多个结果时，只要包含在结果list中，就返回flag=1为真。
+    image_ret,image_out,image_err = queryVddb(image_cmdline)
+    image_meta_uuid_list = parseResult(image_out)
+
+    for image_meta_uuid in  parseResult(image_out):
+        image_result_flag = 1
+    #print "image uuid: %s" % image_result_meta_uuid
+    
+    av_result_flag = 0
+    
     av_ret,av_out,av_err = queryVddb(av_cmdline)
-    av_result_meta_uuid = parseResult(av_out)
+    av_meta_uuid_list = parseResult(av_out)
+    
+    for av_meta_uuid in av_meta_uuid_list:
+        av_result_flag = 1
     #print "av uuid: %s" % av_result_meta_uuid
 
-
+    #image_ret 为0时表示查询结果为True，反之为False
     if (image_ret != 0 or av_ret != 0):
 	print "Vddb Server is Fail,Query fail,Please check it.",time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
-	send_mail()
-    elif (image_ret == 0 and av_ret == 0 and image_result_meta_uuid == image_meta_uuid and av_result_meta_uuid == av_meta_uuid ):
+	#send_mail()
+    elif (image_ret == 0 and av_ret == 0 and image_result_flag == 1 and av_result_flag ==1 ):
     	print "Vddb Server is OK.",time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
 	return
     else:
         print "Vddb Server is Fail,Please check it.",time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
-	send_mail()
-
+	#send_mail()
 
 #def main():
 #    querier = Querier()

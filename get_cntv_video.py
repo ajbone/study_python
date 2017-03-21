@@ -8,7 +8,6 @@ import time
 import threading
 from ftplib import FTP
 import datetime   
-from test_wuxi import check_ftp_file
 
 
 
