@@ -16,12 +16,8 @@ SOURCE_DIR = "/Users/lazybone/workspaces/study_python/unittest/"
 
 f =  list(os.listdir(SOURCE_DIR))
 for i in range(len(f)):
-    #filedate = os.path.getmtime(SOURCE_DIR + f[i])
     filemt = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(os.stat(SOURCE_DIR + f[i]).st_mtime))
-    #filemt= time.localtime(os.stat(SOURCE_DIR + f[i]).st_mtime)
     filemt_timestamp = int(time.mktime(time.strptime(filemt,'%Y-%m-%d %H:%M:%S')))
-    #time1 = datetime.datetime.fromtimestamp(filedate).strftime(‘%Y-%m-%d‘)
-    #ago_date = int(date_format(time.time()-7*86400))
     date_now = time.time()
     num1 =(date_now - filemt_timestamp)/60/60/24
     if num1 >= 7:
