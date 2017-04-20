@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170330 22:27:07.791" generator="Robot 3.0.2 (Python 2.7.10 on darwin)">
+<suite source="/Users/lazybone/workspaces/robot2.0/project/test1/test1.txt" id="s1" name="Test1">
+<test id="s1-t1" name="testprint">
+<kw name="Check Ftp File" library="get_wuxitv_video">
+<arguments>
+<arg>video/BBC_World_News1/20170329</arg>
+</arguments>
+<msg timestamp="20170330 22:27:18.182" level="INFO">========================================================================
+connecting ftp server
+video/BBC_World_News1/20170329
+FTP login
+48 ['0000.mp4', '0030.mp4', '0100.mp4', '0130.mp4', '0200.mp4', '0230.mp4', '0300.mp4', '0330.mp4', '0400.mp4', '0430.mp4', '0500.mp4', '0530.mp4', '0600.mp4', '0630.mp4', '0700.mp4', '0730.mp4', '0800.mp4', '0830.mp4', '0900.mp4', '0930.mp4', '1000.mp4', '1030.mp4', '1100.mp4', '1130.mp4', '1200.mp4', '1230.mp4', '1300.mp4', '1330.mp4', '1400.mp4', '1430.mp4', '1500.mp4', '1530.mp4', '1600.mp4', '1630.mp4', '1700.mp4', '1730.mp4', '1800.mp4', '1830.mp4', '1900.mp4', '1930.mp4', '2000.mp4', '2030.mp4', '2100.mp4', '2130.mp4', '2200.mp4', '2230.mp4', '2300.mp4', '2330.mp4']</msg>
+<status status="PASS" endtime="20170330 22:27:18.182" starttime="20170330 22:27:07.943"></status>
+</kw>
+<kw name="Check Ftp File" library="get_wuxitv_video">
+<arguments>
+<arg>video/CNN1/20170329</arg>
+</arguments>
+<msg timestamp="20170330 22:27:29.390" level="INFO">========================================================================
+connecting ftp server
+video/CNN1/20170329
+FTP login
+48 ['0000.mp4', '0030.mp4', '0100.mp4', '0130.mp4', '0200.mp4', '0230.mp4', '0300.mp4', '0330.mp4', '0400.mp4', '0430.mp4', '0500.mp4', '0530.mp4', '0600.mp4', '0630.mp4', '0700.mp4', '0730.mp4', '0800.mp4', '0830.mp4', '0900.mp4', '0930.mp4', '1000.mp4', '1030.mp4', '1100.mp4', '1130.mp4', '1200.mp4', '1230.mp4', '1300.mp4', '1330.mp4', '1400.mp4', '1430.mp4', '1500.mp4', '1530.mp4', '1600.mp4', '1630.mp4', '1700.mp4', '1730.mp4', '1800.mp4', '1830.mp4', '1900.mp4', '1930.mp4', '2000.mp4', '2030.mp4', '2100.mp4', '2130.mp4', '2200.mp4', '2230.mp4', '2300.mp4', '2330.mp4']</msg>
+<status status="PASS" endtime="20170330 22:27:29.390" starttime="20170330 22:27:18.182"></status>
+</kw>
+<kw name="Check Ftp File" library="get_wuxitv_video">
+<arguments>
+<arg>video/Fox_News1/20170329</arg>
+</arguments>
+<msg timestamp="20170330 22:27:39.691" level="INFO">========================================================================
+connecting ftp server
+video/Fox_News1/20170329
+FTP login
+48 ['0000.mp4', '0030.mp4', '0100.mp4', '0130.mp4', '0200.mp4', '0230.mp4', '0300.mp4', '0330.mp4', '0400.mp4', '0430.mp4', '0500.mp4', '0530.mp4', '0600.mp4', '0630.mp4', '0700.mp4', '0730.mp4', '0800.mp4', '0830.mp4', '0900.mp4', '0930.mp4', '1000.mp4', '1030.mp4', '1100.mp4', '1130.mp4', '1200.mp4', '1230.mp4', '1300.mp4', '1330.mp4', '1400.mp4', '1430.mp4', '1500.mp4', '1530.mp4', '1600.mp4', '1630.mp4', '1700.mp4', '1730.mp4', '1800.mp4', '1830.mp4', '1900.mp4', '1930.mp4', '2000.mp4', '2030.mp4', '2100.mp4', '2130.mp4', '2200.mp4', '2230.mp4', '2300.mp4', '2330.mp4']</msg>
+<status status="PASS" endtime="20170330 22:27:39.692" starttime="20170330 22:27:29.391"></status>
+</kw>
+<kw name="Check Ftp File" library="get_wuxitv_video">
+<arguments>
+<arg>video/NBC1/20170329</arg>
+</arguments>
+<msg timestamp="20170330 22:27:50.016" level="INFO">========================================================================
+connecting ftp server
+video/NBC1/20170329
+FTP login
+48 ['0000.mp4', '0030.mp4', '0100.mp4', '0130.mp4', '0200.mp4', '0230.mp4', '0300.mp4', '0330.mp4', '0400.mp4', '0430.mp4', '0500.mp4', '0530.mp4', '0600.mp4', '0630.mp4', '0700.mp4', '0730.mp4', '0800.mp4', '0830.mp4', '0900.mp4', '0930.mp4', '1000.mp4', '1030.mp4', '1100.mp4', '1130.mp4', '1200.mp4', '1230.mp4', '1300.mp4', '1330.mp4', '1400.mp4', '1430.mp4', '1500.mp4', '1530.mp4', '1600.mp4', '1630.mp4', '1700.mp4', '1730.mp4', '1800.mp4', '1830.mp4', '1900.mp4', '1930.mp4', '2000.mp4', '2030.mp4', '2100.mp4', '2130.mp4', '2200.mp4', '2230.mp4', '2300.mp4', '2330.mp4']</msg>
+<status status="PASS" endtime="20170330 22:27:50.016" starttime="20170330 22:27:39.692"></status>
+</kw>
+<kw name="Check Ftp File" library="get_wuxitv_video">
+<arguments>
+<arg>video/SKY/20170329</arg>
+</arguments>
+<msg timestamp="20170330 22:28:00.255" level="INFO">========================================================================
+connecting ftp server
+video/SKY/20170329
+FTP login
+48 ['0000.mp4', '0030.mp4', '0100.mp4', '0130.mp4', '0200.mp4', '0230.mp4', '0300.mp4', '0330.mp4', '0400.mp4', '0430.mp4', '0500.mp4', '0530.mp4', '0600.mp4', '0630.mp4', '0700.mp4', '0730.mp4', '0800.mp4', '0830.mp4', '0900.mp4', '0930.mp4', '1000.mp4', '1030.mp4', '1100.mp4', '1130.mp4', '1200.mp4', '1230.mp4', '1300.mp4', '1330.mp4', '1400.mp4', '1430.mp4', '1500.mp4', '1530.mp4', '1600.mp4', '1630.mp4', '1700.mp4', '1730.mp4', '1800.mp4', '1830.mp4', '1900.mp4', '1930.mp4', '2000.mp4', '2030.mp4', '2100.mp4', '2130.mp4', '2200.mp4', '2230.mp4', '2300.mp4', '2330.mp4']</msg>
+<status status="PASS" endtime="20170330 22:28:00.256" starttime="20170330 22:27:50.016"></status>
+</kw>
+<kw name="Check Ftp File" library="get_wuxitv_video">
+<arguments>
+<arg>video/ABC/20170329</arg>
+</arguments>
+<msg timestamp="20170330 22:28:10.491" level="INFO">========================================================================
+connecting ftp server
+video/ABC/20170329
+FTP login
+49 ['0000.mp4', '0030.mp4', '0100.mp4', '0130.mp4', '0200.mp4', '0230.mp4', '0300.mp4', '0330.mp4', '0400.mp4', '0430.mp4', '0500.mp4', '0530.mp4', '0600.mp4', '0630.mp4', '0700.mp4', '0730.mp4', '0800.mp4', '0830.mp4', '0900.mp4', '0930.mp4', '1000.mp4', '1030.mp4', '1051.mp4', '1100.mp4', '1130.mp4', '1200.mp4', '1230.mp4', '1300.mp4', '1330.mp4', '1400.mp4', '1430.mp4', '1500.mp4', '1530.mp4', '1600.mp4', '1630.mp4', '1700.mp4', '1730.mp4', '1800.mp4', '1830.mp4', '1900.mp4', '1930.mp4', '2000.mp4', '2030.mp4', '2100.mp4', '2130.mp4', '2200.mp4', '2230.mp4', '2300.mp4', '2330.mp4']</msg>
+<status status="PASS" endtime="20170330 22:28:10.492" starttime="20170330 22:28:00.256"></status>
+</kw>
+<status status="PASS" endtime="20170330 22:28:10.492" critical="yes" starttime="20170330 22:27:07.942"></status>
+</test>
+<test id="s1-t2" name="getjson">
+<kw name="Getjson" library="getcount">
+<arguments>
+<arg>0</arg>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20170330 22:28:10.666" level="INFO">{"videoTop":[{"name":"腾讯","count":2,"category":"website"},{"name":"爱奇艺","count":1,"category":"website"},{"name":"锡林郭勒日报网","count":0,"category":"website"},{"name":"无线常州","count":0,"category":"app"},{"name":"山西视听网","count":0,"category":"website"},{"name":"温岭日报","count":0,"category":"paper"},{"name":"凉山新闻网","count":0,"category":"website"},{"name":"江南晚报","count":0,"category":"paper"},{"name":"伊犁新闻网","count":0,"category":"website"},{"name":"宁波网","count":0,"category":"website"}],"imageTop":[{"name":"东南网","count":58,"category":"website"},{"name":"中国网","count":39,"category":"website"},{"name":"浙江在线","count":26,"category":"website"},{"name":"华龙网","count":19,"category":"website"},{"name":"腾讯新闻","count":19,"category":"app"},{"name":"厦门网","count":17,"category":"website"},{"name":"战略网","count":14,"category":"website"},{"name":"中国江苏网","count":14,"category":"website"},{"name":"宜春新闻网","count":14,"category":"website"},{"name":"丝路明珠网","count":12,"category":"website"}],"textTop":[{"name":"银川日报","count":23,"category":"paper"},{"name":"厦门网","count":20,"category":"website"},{"name":"昆明信息港","count":18,"category":"website"},{"name":"上饶新闻网","count":16,"category":"website"},{"name":"鹤城晚报","count":15,"category":"paper"},{"name":"新蓝网","count":15,"category":"website"},{"name":"大江晚报","count":14,"category":"paper"},{"name":"西部开发网","count":13,"category":"website"},{"name":"今晚网","count":13,"category":"website"},{"name":"青海新闻网","count":13,"category":"website"}],"totalTop":[{"name":"东南网","count":67,"category":"website"},{"name":"中国网","count":40,"category":"website"},{"name":"厦门网","count":37,"category":"website"},{"name":"浙江在线","count":35,"category":"website"},{"name":"银川日报","count":32,"category":"paper"},{"name":"昆明信息港","count":26,"category":"website"},{"name":"华龙网","count":25,"category":"website"},{"name":"战略网","count":24,"category":"website"},{"name":"眉山网","count":23,"category":"website"},{"name":"腾讯新闻","count":23,"category":"app"}]}</msg>
+<status status="PASS" endtime="20170330 22:28:10.666" starttime="20170330 22:28:10.494"></status>
+</kw>
+<status status="PASS" endtime="20170330 22:28:10.666" critical="yes" starttime="20170330 22:28:10.493"></status>
+</test>
+<status status="PASS" endtime="20170330 22:28:10.667" starttime="20170330 22:27:07.794"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test1" pass="2">Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

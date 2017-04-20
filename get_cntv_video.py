@@ -43,6 +43,8 @@ if __name__ == '__main__':
     else:
         date_time = sys.argv[1]
     #date_time = "20170309"
+	day_now = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
+	print "start get video count %s" % (day_now)
     channels1 = ['BBC_World_News', 'CNN', 'Fox_News', 'NBC']
     for chl1 in channels1:
         ftpdir = 'video/%s1/%s' % (chl1,date_time)
@@ -54,3 +56,7 @@ if __name__ == '__main__':
         ftpdir = 'video/%s/%s' % (chl2.upper(),date_time)
         Total,file_list = check_ftp_file(ftpdir)
         print chl2,Total,file_list
+	
+	print "end get video count %s"  % (day_now)
+
+    

@@ -1,5 +1,11 @@
 #!/usr/bin/env python  
 #coding: utf-8  
+'''
+Delete dna file
+@author: zhang_jin@vobile.cn
+@version: 1.0
+@see: 
+'''
 
 import os
 import time
