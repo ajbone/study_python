@@ -25,3 +25,5 @@ for i in range(len(f)):
         print("已删除文件：%s " %  (SOURCE_DIR + f[i]))
 else:
     print("there are no file more than 30 days")
+
+
