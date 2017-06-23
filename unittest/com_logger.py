@@ -243,7 +243,7 @@ if __name__ == '__main__':
 
     logger.debug('debug log......')
     logger.info('info log..........')
-    logger.warn('warn log..........')
+    logger.warn('warn log..........')merchant_Logger
     logger.error('error log..........')
     logger.critical('critical log..........')
 

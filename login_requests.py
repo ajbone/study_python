@@ -20,18 +20,17 @@ password = sys.argv[4]
 '''
 
 
-url = 'http://192.168.1.245:8070/sessionManage/login.action'
-data = {'userName':'admin','password':'admin'}
+url = 'http://merchant.treefinance.com.cn/h5/login'
+data = {'userName':'jielema','password':'123456'}
 
 r = requests.post(url,data=data)
 print r.text
 print r.headers
 
 headers = {'Cookie': r.headers['set-cookie']}
-
 print headers
 
-search_url = 'http://192.168.1.245:8070/sysadmin/searchUserListData/searchUserList.action?organizationId=1&user.userName=test4&searchLockStatus=all'
+search_url = 'http://test.merchant.treefinance.com.cn/server/stataccess/mail/gettimes?dateType=1'
 
 req = requests.post(search_url,headers=headers)
 print req.text
