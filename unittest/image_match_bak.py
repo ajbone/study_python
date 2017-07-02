@@ -2,7 +2,7 @@
 #coding: utf-8
 '''
 unittest xhs image_query interface
-@author: zhang_jin@vobile.cn
+@author: zhang_jin
 @version: 1.0
 @see:
 '''
@@ -14,14 +14,14 @@ import requests
 import time
 import config as cf
 from com_logger import  match_Logger
-
-
+#from result_statistics import *
+import result_statistics
 class MyTestSuite(unittest.TestCase):
 	"""docstring for MyTestSuite"""
 	#@classmethod
 	def sedUp(self):
 		print "start..."
-
+    #图片匹配统计
 	def test_image_match_001(self):
 		url = cf.URL
 
@@ -60,9 +60,13 @@ class MyTestSuite(unittest.TestCase):
 		response.encoding = response.apparent_encoding
 		results = json.loads(response.text)
 		match_Logger.info("start image_query22222")
-		self.assertEqual(results['total'], 618)
+		#self.assertEqual(results['total'], 888)
+		results_total = results['total']
+		print "Testcase test_text_match_001"
+		result_statistics.test_result(results,936)
+		'''
 		try:
-			self.assertEqual(results['total'], 618)
+			self.assertEqual(results['total'], 888)
 		except:
 			match_Logger.error(traceback.format_exc())
 		#print results['total']
@@ -70,7 +74,8 @@ class MyTestSuite(unittest.TestCase):
 		#self.assertRegexpMatches(response.text,"[0-9]{10}")
 		#print type(results)
 		#print results
-
+        '''
+    #文字匹配数据统计
 	def test_text_match_001(self):
 
 		text_url = cf.URL2
@@ -104,7 +109,10 @@ class MyTestSuite(unittest.TestCase):
 		response.encoding = response.apparent_encoding
 		results = json.loads(response.text)
 		match_Logger.info("start image_query3333")
-		self.assertEqual(results['total'], 4208)
+		results_total = results['total']
+		print "Testcase test_text_match_001"
+		result_statistics.test_result(results,4521)
+		#self.assertEqual(results['total'], 4208)
 		#print(response.text)
 
 	def tearDown(self): 
@@ -117,8 +125,11 @@ if __name__ == '__main__':
 	suite=unittest.TestSuite()
 	suite.addTest(MyTestSuite("test_image_match_001"))
 	suite.addTest(MyTestSuite("test_text_match_001"))
+	suite.addTest(MyTestSuite("test_text_match_001"))
 	
     #执行测试
 	runner = unittest.TextTestRunner()
 	runner.run(suite)
+	print "success case:",result_statistics.num_success
+	print "fail case:",result_statistics.num_fail
 	#unittest.main()

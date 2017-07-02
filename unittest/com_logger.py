@@ -234,7 +234,7 @@ class ALogger(logging.Logger, object):
         finally:
             self.message_undecorate()
 
-match_Logger = ALogger('image_match', log_handler='/Users/lazybone/workspaces/study_python/unittest/image.log',log_level='ERROR')
+merchant_Logger = ALogger('merchant_background', log_handler='/Users/lazybone/workspaces/tree_interface/project/saas/unittest/merchant_interface.log',log_level='ERROR')
 #convert_Logger_error = ALogger('image_match', log_handler='/Users/lazybone/workspaces/study_python/unittest/image.log',log_level='ERROR')
 
 if __name__ == '__main__':
@@ -243,7 +243,7 @@ if __name__ == '__main__':
 
     logger.debug('debug log......')
     logger.info('info log..........')
-    logger.warn('warn log..........')
+    logger.warn('warn log..........')merchant_Logger
     logger.error('error log..........')
     logger.critical('critical log..........')
 
