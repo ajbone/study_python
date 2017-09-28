@@ -1,0 +1,74 @@
+我根据魔蝎的API统计了下，超过3个login_type就2个城市一个苏州4个，一个北京5个。
+city_name: 苏州 area_code: 215000 login_type: 4
+city_name: 北京 area_code: 100000 login_type: 5
+
+另外他们获取城市公积金列表接口有个bug，如下城市，对应的area_code前面有个空格。
+city_name: 张掖 area_code:  734000
+
+
+魔蝎小伙伴，我是大树这边的测试，刚我在统计你们各个城市login_type的个数时，发现有个城市有点问题，获取城市公积金列表接口有个bug，如下城市（city_name: 张掖），对应的area_code前面有个空格。
+
+根据area_code获取当前公积金UI登录元素
+
+
+
+84228050-979e-11e7-bf27-00163e002b50
+
+8c5a7730-97a0-11e7-bf27-00163e002b50
+
+
+{
+    "type": "http://httpstatus.es/415",
+    "title": "媒体类型不支持",
+    "status": 415,
+    "detail": "此资源只支持媒体类型application/octet-stream,text/plain;charset=ISO-8859-1,application/xml,text/xml,application/x-www-form-urlencoded,application/*+xml,multipart/form-data,application/json;charset=UTF-8,application/*+json;charset=UTF-8,*/*, 您的请求Header[Content-Type text/plain;charset=UTF-8]."
+}
+
+性能测试脚本执行开始时间：
+2017年 9月19日 星期二 14时38分27秒 CST
+
+
+安徽 马鞍山 243000
+山西 山西焦煤集团 030002
+浙江政务服务网 310025
+江西 新余 338000
+广东 珠海 519000
+浙江 兰溪 321100
+
+
+联名卡号，个人登记号，身份证，军官证，护照
+
+多次输入错误的用户名密码之后魔蝎对应的task_id会时刻变化，而我们自身的taskId是不会变化的。
+
+未注册，用户名，公积金账号，身份证号
+长沙，410000：手机,身份证号,个人账号
+杭州，310000：客户号，用户名，市民邮箱
+广州，GUANGZHOU510000：证件号，公积金账号
+余姚，315400：身份证号，个人公积金账号
+福建,350000S:身份证号
+沈阳,110000:公积金登录
+
+
+
+思维导图console相关模块增加；
+把思维导图标题增加到testlink去；
+找兴海确认需要测试的3点内容，开始测试；
+找研发确认用例评审时间；
+电商模块自动化回归测试脚本（找严迪确实下电商登录实现方式）
+公积金项目测试
+
+
+
+
+
+
+1.H5整体流程验证，从
+
+获取公积金全部信息(扩展接口，含area_code和city)funds-ex/{task_id}但不包含贷款信息，
+而我们目前是通过调用获取获取公积金全部信息接口funds/{task_id}信息来获取详细信息，但该接口是不包含area_code以及city的，是否可以在该接口中增加area_code以及city。
+
+
+
+
+
+
