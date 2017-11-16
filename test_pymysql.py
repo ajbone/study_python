@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from flask import jsonify, Flask,make_response,request
+#from flask import jsonify, Flask,make_response,request
 import pymysql,sys
 
 reload(sys)

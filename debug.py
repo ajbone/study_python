@@ -74,3 +74,8 @@ def next_directive():
 if __name__ == '__main__':
 	ecommerce_start()
 	print ecommerce_acquisition()
+
+
+
+
+	

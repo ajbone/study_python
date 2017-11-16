@@ -9,7 +9,7 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 
 def get_city_list():
-	url = "https://api.51datakey.com/fund/v2/city-list"
+	url = "https://api.51datakey.com/fund/v2/city-list-ex"
 
 	headers = {
     'cache-control': "no-cache",
@@ -26,9 +26,9 @@ def get_city_list():
 			print elements_ex(i["city_name"],i["area_code"])
 			print i["city_name"],i["area_code"]
 		'''
-		print login_elements_ex(i["city_name"],i["area_code"])
+		print login_elements_ex(i["province"],i["city_name"],i["area_code"])
 
-def login_elements_ex(city_name,area_code):
+def login_elements_ex(province,city_name,area_code):
 
 	url = "https://api.51datakey.com/fund/v2/"
 
@@ -45,8 +45,8 @@ def login_elements_ex(city_name,area_code):
 		for i in results:
 			for j in i["fields"]:
 				if j["type"] == "select":
-					print city_name,area_code
-					print json.dumps(results,ensure_ascii=False)
+					print province,city_name
+					#print json.dumps(results,ensure_ascii=False)
 				else:
 					break
 

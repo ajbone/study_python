@@ -10,6 +10,7 @@ import json
 import time
 import os
 import sys
+
 from_addr = "ajbone@sina.com"
 password = "zj13968043083"
 #to_addr = ["zhang_jin@vobile.cn","yu_shu@vobile.cn"]
