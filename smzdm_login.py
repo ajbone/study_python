@@ -7,8 +7,8 @@ import sys
 import time
 import json
 
-UserName = '13758127384'  # 用户名或者邮箱
-PassWord = 'tjj123'  # 密码
+UserName = 'ajbone@sina.com'  # 用户名或者邮箱
+PassWord = 'zj5704716'  # 密码
 
 
 class smzdm:

@@ -89,8 +89,7 @@ call_back_success = {
     "stateCode": 200,
     "statusText":"成功",
     "errorMsg": "NULL",
-    "success":"True"
-}
+    "success":"True"}
 
 call_error_result = {
     "errorMsg": "Data Processing Fail!",
@@ -143,19 +142,37 @@ def app_call_back():
         return jsonify(test_data)
         #return jsonify(call_back_operator)
 
-
-@app.route('/<path:path>', methods=['GET','POST'])
-def get_all_task(path):
-    path = '/' + path
-    if request.method=='GET':
-        varsvalue = request.args.items()
+@app.route('/v3/callback', methods=['GET', 'POST'])
+def TD_call_back():
+    if request.method == 'POST':
+        print "111111111111111111GET"
+        print request.get_data()
+        #return jsonify(call_back_operator)
+        #print request.args.get('params')
+        #return request.args.get('params')
+        return jsonify(tasks)
     else:
-        varsvalue = request.form.items()
-    try:
-        r = checkpath(path, varsvalue, request.method)
-    except HaltException:
-        print u"回调支持的业务类型为-运营商" 
-    return r
+        test_data = request.form['params']
+        print "11111111111111111111111POST"
+        #print test_data
+        #time.sleep(3600)
+        return jsonify(call_back_success)
+        # return call_back_success
+
+        #return jsonify(call_back_operator)
+
+# @app.route('/<path:path>', methods=['GET','POST'])
+# def get_all_task(path):
+#     path = '/' + path
+#     if request.method=='GET':
+#         varsvalue = request.args.items()
+#     else:
+#         varsvalue = request.form.items()
+#     try:
+#         r = checkpath(path, varsvalue, request.method)
+#     except HaltException:
+#         print u"回调支持的业务类型为-运营商" 
+#     return r
 
 # @app.route('/v1/callback', methods=['GET', 'POST'])
 # def app_call_back():
