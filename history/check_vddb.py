@@ -15,9 +15,9 @@ from subprocess import *
 import xml.dom.minidom
 
 
-from_addr = "ajbone@sina.com"
-password = "zj5704716"
-to_addr = ["zhang_jin@vobile.cn","su_rongyao@vobile.cn"]
+    from_addr = "xxx"
+    password = "xx"
+to_addr = ["xx","xxx"]
 smtp_server = "smtp.sina.com"
 
 av_meta_uuid ="8f09defe-c1f3-11e6-b90d-48fd8eaeed8e"

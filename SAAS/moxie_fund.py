@@ -13,7 +13,7 @@ def DateFormat(publishtime):
 def post_account():
 	url = "https://api.51datakey.com/fund/v2/tasks"
 
-	payload = "{\n  \"area_code\": \"310000\",\n  \"account\": \"100008917809\",\n  \"password\": \"zj5704716\",\n  \"login_type\": \"1\",\n  \"origin\": \"3\",\n  \"user_id\": \"1234567890\"\n}"
+	payload = "{\n  \"area_code\": \"310000\",\n  \"account\": \"100008917809\",\n  \"password\": \"xxx\",\n  \"login_type\": \"1\",\n  \"origin\": \"3\",\n  \"user_id\": \"1234567890\"\n}"
 
 	headers = {
 		'authorization': "apiKey 16abe89aff4a414ab3d0823e40504c5b",

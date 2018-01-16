@@ -9,9 +9,9 @@ import requests
 import json
 import time
 
-from_addr = "ajbone@sina.com"
-password = "zj5704716"
-to_addr = "zhang_jin@vobile.cn"
+from_addr = "xxx"
+password = "xx"
+to_addr = "zhang"
 smtp_server = "smtp.sina.com"
 
 def _format_addr(s):

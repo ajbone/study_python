@@ -21,8 +21,8 @@ def Caltime(date1,date2):
     date2=datetime.datetime(date2[0],date2[1],date2[2],date2[3],date2[4],date2[5])
     return date2-date1
 
+#调用start接口，获取TaskId
 def ecommerce_start():
-	#url = "http://pf.test.datatrees.cn/gateway/ecommerce/start"
 	payload = "appid=QATestabcdefghQA&uniqueId=qatest&deviceInfo=%7B%20%20%20%20%20%22positionData%22%3A%20%2222.648577%2C114.153408%22%7D"
 	headers = {
 	    'content-type': "application/x-www-form-urlencoded"
@@ -43,6 +43,7 @@ def ecommerce_start():
 		print "http error info:%s" %response.status_code
 		return
 
+#根据获取的TaskId，间隔2秒循环调用轮询接口；
 def ecommerce_acquisition():
 	global taskId 
 	taskId = ecommerce_start()
@@ -78,6 +79,7 @@ def ecommerce_acquisition():
 		else:
 			print "Fail"
 
+#轮询接口，定时扫描结果返回结果
 def next_directive():
 	#url = "http://pf.test.datatrees.cn/gateway/task/next_directive"
 

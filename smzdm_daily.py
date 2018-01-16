@@ -63,7 +63,7 @@ if __name__ == '__main__':
     try:
         # reload(sys)
         # sys.setdefaultencoding("utf-8")  
-        smzdm = SMZDMDaily("ajbone@sina.com", "zj5704716")
+        smzdm = SMZDMDaily("xx", "xx")
         result = smzdm.checkin()
     except SMZDMDailyException as e:
         print('fail', e)

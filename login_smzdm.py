@@ -4,16 +4,16 @@ import requests
 from bs4 import BeautifulSoup
 import sys
 
-UserName = 'ajbone@sina.com'  # 用户名或者邮箱
-PassWord = 'zj5704716'  # 密码
+UserName = 'xxx'  # 用户名或者邮箱
+PassWord = 'xx'  # 密码
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:41.0) Gecko/20100101 Firefox/41.0','Host': 'zhiyou.smzdm.com', }
 data = {
             'captcha': "",
             'redirect_url': 'http://www.smzdm.com',
             'rememberme': 'on',
-            'username': 'ajbone@sina.com',
-            'password': 'zj5704716'
+            'username': 'xxx',
+            'password': 'xx'
         }
         
 loginURL = 'https://zhiyou.smzdm.com/user/login/ajax_check'

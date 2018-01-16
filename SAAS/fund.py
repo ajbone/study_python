@@ -85,7 +85,7 @@ def foun_submit(username,password):
 
 if __name__ == '__main__':
 	#ecommerce_start()
-	# list1 = [("100008917809","zj5704716"),("100056598801","kellychen@dfsq")]
+	# list1 = [("100008917809","xxx"),("100056598801","kellychen@dfsq")]
 	# for i in list1:
 	# 	print i[0],i[1] 
 
@@ -93,7 +93,7 @@ if __name__ == '__main__':
 		if 1 == 1:
 			start_date = DateFormat(time.time())
 			date1 = int(time.time())
-			print foun_submit("100008917809","zj5704716")
+			print foun_submit("100008917809","xxx")
 			date2 = int(time.time())
 
 			print foun_submit("100056598801","kellychen@dfsq")

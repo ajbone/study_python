@@ -9,10 +9,10 @@ import requests
 import json
 import time
 
-from_addr = "ajbone@sina.com"
-password = "zj5704716"
-#to_addr = ["zhang_jin@vobile.cn","yu_shu@vobile.cn"]
-to_addr = "zhang_jin@vobile.cn"
+from_addr = "xxx"
+password = "xx"
+#to_addr = ["xxx","yu_shu@vobile.cn"]
+to_addr = "xxx"
 smtp_server = "smtp.sina.com"
 
 

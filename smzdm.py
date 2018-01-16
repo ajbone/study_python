@@ -5,8 +5,8 @@ import requests
 from bs4 import BeautifulSoup
 import sys
 
-UserName = 'ajbone@sina.com'  # 用户名或者邮箱
-PassWord = 'zj5704716'  # 密码
+UserName = 'xxx'  # 用户名或者邮箱
+PassWord = 'xx'  # 密码
 
 
 class smzdm:

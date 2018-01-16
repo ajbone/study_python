@@ -18,10 +18,10 @@ import json
 import traceback
 
 
-from_addr = "ajbone@sina.com"
-password = "zj5704716"
-to_addr = ["zhang_jin@vobile.cn"]
-#to_addr = ["zhang_jin@vobile.cn","jin_le@vobile.cn"]
+from_addr = "xxx"
+password = "xxx"
+to_addr = ["xxx"]
+#to_addr = ["xxx","jin_le@vobile.cn"]
 smtp_server = "smtp.sina.com"
 
 class SendMailExcept(Exception):
