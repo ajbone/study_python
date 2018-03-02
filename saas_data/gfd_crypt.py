@@ -8,7 +8,7 @@ import sys
 
 def crypt(number):
 
-	url = "http://bankbill.datatrees.com.cn/bankbill-search/crypt"
+	url = "xxxx"
 
 	querystring = {"callback":"jQuery214007561560955789859_1511865011307"}
 	params = {"env":"2","flag":"0","inputString":number}
